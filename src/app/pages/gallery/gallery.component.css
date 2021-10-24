@@ -1,0 +1,13 @@
+mat-card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp1874695.jpg);
+	background-size: cover;
+    height: 600px;
+}
+table{
+     float: right;
+     margin-top: 30px;
+     margin-right: 20px;
+}

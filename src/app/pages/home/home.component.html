@@ -1,0 +1,26 @@
+<mat-sidenav-container class="app-sidenav-container">
+    <mat-sidenav mode="side" opened class="app-sidenav">
+        <mat-toolbar color="primary">
+            Menu
+        </mat-toolbar>
+        <mat-list>
+            <mat-list-item><mat-icon>person</mat-icon>
+                <a routerLink="profile" routerLinkActive="active" class="anchor_class">Profile</a></mat-list-item>
+            <mat-list-item><mat-icon>photo library</mat-icon>
+                <a routerLink="gallery" routerLinkActive="active" class="anchor_class">Gallery</a></mat-list-item>
+            <mat-list-item><mat-icon>phone</mat-icon>
+                <a routerLink="contact" routerLinkActive="active" class="anchor_class">Contacts</a></mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+
+    <div class="app-sidenav-content">
+        <mat-toolbar color="primary">
+            <button mat-button class="sidenav-toggle">
+                <mat-icon>menu</mat-icon>
+            </button>
+            Home
+        </mat-toolbar>
+        <router-outlet></router-outlet>
+
+    </div>
+</mat-sidenav-container>
